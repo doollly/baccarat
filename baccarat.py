@@ -10,8 +10,7 @@ class Baccarat:
     def deal(self):
         self.player.append(self.deck.pop())
         self.banker.append(self.deck.pop())
-        self.player.append(self.deck.pop())
-        self.banker.append(self.deck.pop())
+
 
     def score(self, hand):
         t = sum(hand)
