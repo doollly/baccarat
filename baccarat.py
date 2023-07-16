@@ -45,7 +45,7 @@ class Baccarat:
         print(f"Banker hand: {self.banker} ({banker_score})")
 
         if player_score > banker_score:
-            print("Player wins!")
+            print("Gratz! Player wins!")
         elif player_score < banker_score:
             print("Banker wins!")
         else:
