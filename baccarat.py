@@ -2,7 +2,7 @@ import random
 
 class Baccarat:
     def __init__(self):
-        self.deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11] * 4
+        self.deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 11] * 4
         random.shuffle(self.deck)
         self.player = []
         self.banker = []
